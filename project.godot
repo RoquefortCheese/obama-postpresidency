@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="haven"
+config/name="haven [post-haven update] [harvest version?]"
 run/main_scene="uid://due2n4hr7i02"
 config/features=PackedStringArray("4.8", "GL Compatibility")
 config/icon="res://icon.svg"
@@ -25,6 +25,10 @@ window/size/viewport_width=800
 window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://.godot/scenetime/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
 
 [gui]
 
