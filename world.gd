@@ -13,7 +13,6 @@ func generate():
 	$Obama.visible = false
 	$Terrain.generate()
 	welcome()
-	print("done")
 
 func welcome():
 	$Player.position = $Terrain.placerandom()

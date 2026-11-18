@@ -7,7 +7,6 @@ var spinoff := Vector2(randf(), randf())
 var coloff := Vector2(randf(), randf())
 
 func _ready() -> void:
-	print(coloff)
 	$MeshInstance3D.rotation += Vector3.ONE * spinoff.x * TAU
 	var material := StandardMaterial3D.new()
 	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
