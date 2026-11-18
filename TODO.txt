@@ -1,0 +1,8 @@
+fix (hypothetical) spawning bug
+implement floodfilling
+randomize textures better
+improve the font
+improve labels
+add a dash maybe?
+add sfx
+add music
